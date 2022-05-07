@@ -12,5 +12,8 @@ Instructions from the [OrderBookFeedProcessor](./OrderBookFeedProcessor) directo
 
 You need to specify the target depth at startup: `dotnet run . <depth>`
 
-You can assert correctness against the test binary data using the following: `cat ../TestFeedProcessor/data/input1.stream | dotnet run . 5 > test.out && diff test.out ../TestFeedProcessor/data/output.log` (Fish shell)
+You can assert correctness against the test binary data using the following (Fish shell):
+
+    cat ../TestFeedProcessor/data/input1.stream | dotnet run . 5 > test.out \ 
+    && diff test.out ../TestFeedProcessor/data/output.log
 
