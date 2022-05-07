@@ -1,0 +1,6 @@
+.idea/
+OrderBookFeedProcessor.sln.DotSettings.user
+*/bin/
+*/obj/
+*.out
+

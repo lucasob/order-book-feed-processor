@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="Header.fs" />
+      <Compile Include="Message.fs" />
+      <Compile Include="Depth.fs" />
+      <Compile Include="Processor.fs" />
+      <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
